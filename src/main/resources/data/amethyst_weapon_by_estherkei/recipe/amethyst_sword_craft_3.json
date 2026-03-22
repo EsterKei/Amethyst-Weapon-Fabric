@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_shard",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "amethyst_weapon_by_estherkei:amethyst_sword",
+    "count": 1
+  }
+}

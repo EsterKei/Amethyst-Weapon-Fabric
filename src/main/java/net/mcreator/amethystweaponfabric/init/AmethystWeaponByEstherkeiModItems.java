@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.amethystweaponfabric.item.AmethystSwordItem;
 import net.mcreator.amethystweaponfabric.item.AmethystSnovelItem;
 import net.mcreator.amethystweaponfabric.item.AmethystPickaxeItem;
 import net.mcreator.amethystweaponfabric.item.AmethystHoeItem;
@@ -22,12 +23,14 @@ public class AmethystWeaponByEstherkeiModItems {
 	public static Item AMETHYST_AXE;
 	public static Item AMETHYST_SNOVEL;
 	public static Item AMETHYST_HOE;
+	public static Item AMETHYST_SWORD;
 
 	public static void load() {
 		AMETHYST_PICKAXE = register("amethyst_pickaxe", AmethystPickaxeItem::new);
 		AMETHYST_AXE = register("amethyst_axe", AmethystAxeItem::new);
 		AMETHYST_SNOVEL = register("amethyst_snovel", AmethystSnovelItem::new);
 		AMETHYST_HOE = register("amethyst_hoe", AmethystHoeItem::new);
+		AMETHYST_SWORD = register("amethyst_sword", AmethystSwordItem::new);
 	}
 
 	// Start of user code block custom items

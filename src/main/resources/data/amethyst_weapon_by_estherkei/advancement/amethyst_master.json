@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "amethyst_weapon_by_estherkei:amethyst_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.amethyst_master.title"
+    },
+    "description": {
+      "translate": "advancements.amethyst_master.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amethyst_master_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethyst_weapon_by_estherkei:amethyst_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "amethyst_master_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethyst_weapon_by_estherkei:amethyst_axe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "amethyst_master_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethyst_weapon_by_estherkei:amethyst_snovel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "amethyst_master_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethyst_weapon_by_estherkei:amethyst_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "amethyst_weapon_by_estherkei:item/diamond_sword"
+  }
+}

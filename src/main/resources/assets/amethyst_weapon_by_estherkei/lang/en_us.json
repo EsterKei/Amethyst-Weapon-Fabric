@@ -10,5 +10,8 @@
   "item.amethyst_weapon_by_estherkei.amethyst_snovel": "Amethyst Snovel",
   "item.amethyst_weapon_by_estherkei.amethyst_hoe": "Amethyst Hoe",
   "painting.amethyst_weapon_by_estherkei.pack_2.author": "EstherKei",
-  "painting.amethyst_weapon_by_estherkei.pack_2.title": "Preview of AW"
+  "painting.amethyst_weapon_by_estherkei.pack_2.title": "Preview of AW",
+  "advancements.amethyst_master.title": "Amethyst Master",
+  "advancements.amethyst_master.descr": "You crafted this, but what for?",
+  "item.amethyst_weapon_by_estherkei.amethyst_sword": "Amethyst Sword"
 }

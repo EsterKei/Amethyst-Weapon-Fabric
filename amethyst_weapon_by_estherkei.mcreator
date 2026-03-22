@@ -195,6 +195,72 @@
           "src/main/resources/data/amethyst_weapon_by_estherkei/painting_variant/pack_2.json"
         ]
       }
+    },
+    {
+      "name": "AmethystMaster",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_master",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon_by_estherkei/advancement/amethyst_master.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethystweaponfabric/item/AmethystSwordItem.java",
+          "src/main/resources/assets/amethyst_weapon_by_estherkei/models/item/amethyst_sword.json",
+          "src/main/resources/assets/amethyst_weapon_by_estherkei/models/item/amethyst_sword_gui.json",
+          "src/main/resources/assets/amethyst_weapon_by_estherkei/items/amethyst_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon_by_estherkei/recipe/amethyst_sword_craft.json",
+          "src/main/resources/data/amethyst_weapon_by_estherkei/advancement/recipes/amethyst_sword_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSwordCraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon_by_estherkei/advancement/recipes/amethyst_sword_craft_2.json",
+          "src/main/resources/data/amethyst_weapon_by_estherkei/recipe/amethyst_sword_craft_2.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSwordCraft3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_craft_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon_by_estherkei/recipe/amethyst_sword_craft_3.json",
+          "src/main/resources/data/amethyst_weapon_by_estherkei/advancement/recipes/amethyst_sword_craft_3.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -244,6 +310,16 @@
       "~Blocks.LARGE_AMETHYST_BUD",
       "~Blocks.AMETHYST_CLUSTER",
       "~Blocks.AMETHYST_BLOCK"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AmethystSword"
+    ],
+    "ITEMS:amethyst_weapon_by_estherkei:amethyst_sword_repair_items": [
+      "~Blocks.SMALL_AMETHYST_BUD",
+      "~Blocks.MEDIUM_AMETHYST_BUD",
+      "~Blocks.LARGE_AMETHYST_BUD",
+      "~Blocks.AMETHYST_CLUSTER",
+      "~Blocks.AMETHYST_BLOCK"
     ]
   },
   "tab_element_order": {},
@@ -260,7 +336,10 @@
       "item.amethyst_weapon_by_estherkei.amethyst_snovel": "Amethyst Snovel",
       "item.amethyst_weapon_by_estherkei.amethyst_hoe": "Amethyst Hoe",
       "painting.amethyst_weapon_by_estherkei.pack_2.author": "EstherKei",
-      "painting.amethyst_weapon_by_estherkei.pack_2.title": "Preview of AW"
+      "painting.amethyst_weapon_by_estherkei.pack_2.title": "Preview of AW",
+      "advancements.amethyst_master.title": "Amethyst Master",
+      "advancements.amethyst_master.descr": "You crafted this, but what for?",
+      "item.amethyst_weapon_by_estherkei.amethyst_sword": "Amethyst Sword"
     }
   },
   "metadata": {
@@ -297,7 +376,7 @@
   "workspaceSettings": {
     "modid": "amethyst_weapon_by_estherkei",
     "modName": "Amethyst Weapon - Fabric 1.21.8",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This project is based on my own resourcepack, which adds amethyst weapon. And I was created this for fabric 1.21.8",
     "author": "EstherKei",
     "websiteURL": "https://github.com/EsterKei/Amethyst-Weapon-Fabric",

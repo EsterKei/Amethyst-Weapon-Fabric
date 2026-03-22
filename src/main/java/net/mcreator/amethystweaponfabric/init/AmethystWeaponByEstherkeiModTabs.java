@@ -15,5 +15,8 @@ public class AmethystWeaponByEstherkeiModTabs {
 			tabData.accept(AmethystWeaponByEstherkeiModItems.AMETHYST_SNOVEL);
 			tabData.accept(AmethystWeaponByEstherkeiModItems.AMETHYST_HOE);
 		});
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(tabData -> {
+			tabData.accept(AmethystWeaponByEstherkeiModItems.AMETHYST_SWORD);
+		});
 	}
 }
