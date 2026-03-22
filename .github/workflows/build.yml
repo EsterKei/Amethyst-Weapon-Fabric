@@ -22,8 +22,11 @@ jobs:
         server-id: github
         settings-path: ${{ github.workspace }}
 
-    - name: Setup Gradle
+ - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
+
+    - name: Make gradlew executable
+      run: chmod +x gradlew
 
     - name: Build and Publish
       run: ./gradlew build publish
