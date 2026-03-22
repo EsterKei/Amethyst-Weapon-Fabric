@@ -1,10 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "minecraft:small_amethyst_bud",
-    "minecraft:amethyst_cluster",
-    "minecraft:amethyst_block",
-    "minecraft:large_amethyst_bud",
-    "minecraft:medium_amethyst_bud"
-  ]
+  "values": []
 }

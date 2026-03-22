@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "amethyst_weapon_by_estherkei:item/diamond_pickaxe"
+  }
+}

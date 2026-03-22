@@ -1,27 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "amethyst_weapon__fabric_",
-  "version": "1.0.0",
+  "id": "amethyst_weapon_by_estherkei",
+  "version": "0.0.1",
   "name": "Amethyst Weapon - Fabric 1.21.8",
+  "description": "This project is based on my own resourcepack, which adds amethyst weapon. And I was created this for fabric 1.21.8",
   "authors": [
-    "MCreator"
+    "EstherKei"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://github.com/EsterKei/Amethyst-Weapon-Fabric",
     "sources": ""
   },
-  "license": "Not specified",
+  "license": "MIT License",
+  "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.mcreator.amethystweaponfabric.AmethystWeaponFabricMod"
+      "net.mcreator.amethystweaponfabric.AmethystWeaponByEstherkeiMod"
     ],
     "client": [
-      "net.mcreator.amethystweaponfabric.AmethystWeaponFabricModClient"
+      "net.mcreator.amethystweaponfabric.AmethystWeaponByEstherkeiModClient"
     ]
   },
   "mixins": [
-    "amethyst_weapon__fabric_.mixins.json"
+    "amethyst_weapon_by_estherkei.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.17.2",
