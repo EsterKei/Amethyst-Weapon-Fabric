@@ -1,0 +1,288 @@
+{
+  "mod_elements": [
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethystweaponfabric/item/AmethystPickaxeItem.java",
+          "src/main/resources/assets/amethyst_weapon__fabric_/models/item/amethyst_pickaxe.json",
+          "src/main/resources/assets/amethyst_weapon__fabric_/items/amethyst_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethyst_weapon__fabric_/models/item/amethyst_axe.json",
+          "src/main/resources/assets/amethyst_weapon__fabric_/items/amethyst_axe.json",
+          "src/main/java/net/mcreator/amethystweaponfabric/item/AmethystAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSnovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_snovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amethystweaponfabric/item/AmethystSnovelItem.java",
+          "src/main/resources/assets/amethyst_weapon__fabric_/models/item/amethyst_snovel.json",
+          "src/main/resources/assets/amethyst_weapon__fabric_/items/amethyst_snovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethyst_weapon__fabric_/models/item/amethyst_hoe.json",
+          "src/main/resources/assets/amethyst_weapon__fabric_/items/amethyst_hoe.json",
+          "src/main/java/net/mcreator/amethystweaponfabric/item/AmethystHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxerecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxerecipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/pickaxerecipe_1.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/amethyst_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/amethyst_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AxeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/axe_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SnovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/snovel_recipe.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/snovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SnovelRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snovel_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/snovel_recipe_2.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/snovel_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SnovelRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snovel_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/snovel_recipe_3.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/snovel_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/hoe_recipe.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/hoe_recipe_2.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/hoe_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/hoe_recipe_3.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/hoe_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "HoeRecipe4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoe_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amethyst_weapon__fabric_/recipe/hoe_recipe_4.json",
+          "src/main/resources/data/amethyst_weapon__fabric_/advancement/recipes/hoe_recipe_4.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:amethyst_weapon__fabric_:amethyst_pickaxe_repair_items": [
+      "~Blocks.MEDIUM_AMETHYST_BUD",
+      "~Blocks.SMALL_AMETHYST_BUD",
+      "~Blocks.LARGE_AMETHYST_BUD",
+      "~Blocks.AMETHYST_CLUSTER",
+      "~Blocks.AMETHYST_BLOCK"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AmethystAxe"
+    ],
+    "ITEMS:amethyst_weapon__fabric_:amethyst_axe_repair_items": [
+      "~Blocks.BUDDING_AMETHYST",
+      "~Blocks.AMETHYST_BLOCK",
+      "~Blocks.SMALL_AMETHYST_BUD",
+      "~Blocks.MEDIUM_AMETHYST_BUD",
+      "~Blocks.LARGE_AMETHYST_BUD",
+      "~Blocks.AMETHYST_CLUSTER"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AmethystSnovel"
+    ],
+    "ITEMS:amethyst_weapon__fabric_:amethyst_snovel_repair_items": [
+      "~Blocks.SMALL_AMETHYST_BUD",
+      "~Blocks.MEDIUM_AMETHYST_BUD",
+      "~Blocks.LARGE_AMETHYST_BUD",
+      "~Blocks.AMETHYST_CLUSTER",
+      "~Blocks.AMETHYST_BLOCK"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AmethystHoe"
+    ],
+    "ITEMS:amethyst_weapon__fabric_:amethyst_hoe_repair_items": [
+      "~Blocks.SMALL_AMETHYST_BUD",
+      "~Blocks.MEDIUM_AMETHYST_BUD",
+      "~Blocks.LARGE_AMETHYST_BUD",
+      "~Blocks.AMETHYST_CLUSTER",
+      "~Blocks.AMETHYST_BLOCK"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.amethyst_weapon__fabric_.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.amethyst_weapon__fabric_.amethyst_axe": "Amethyst Axe",
+      "item.amethyst_weapon__fabric_.amethyst_snovel": "Amethyst Snovel",
+      "item.amethyst_weapon__fabric_.amethyst_hoe": "Amethyst Hoe"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/init/AmethystWeaponFabricModItems.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/event/BlockEvents.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/AmethystWeaponFabricMod.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/amethystweaponfabric/event/MiscEvents.java",
+      "src/main/resources/amethyst_weapon__fabric_.mixins.json",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/init/AmethystWeaponFabricModTabs.java",
+      "src/main/java/net/mcreator/amethystweaponfabric/event/ItemEvents.java",
+      "src/main/resources/META-INF/amethyst_weapon__fabric_.accesswidener",
+      "src/main/java/net/mcreator/amethystweaponfabric/AmethystWeaponFabricModClient.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/amethystweaponfabric/event/PlayerEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "amethyst_weapon__fabric_",
+    "modName": "Amethyst Weapon - Fabric 1.21.8",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "modElementsPackage": "net.mcreator.amethystweaponfabric"
+  },
+  "mcreatorVersion": 202500345720
+}

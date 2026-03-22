@@ -1,0 +1,15 @@
+# Временные файлы Gradle и Java
+.gradle/
+build/
+bin/
+
+# Файлы запуска Minecraft
+run/
+*.log
+
+# Кэш MCreator
+.mcreator/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
